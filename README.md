@@ -21,12 +21,16 @@ The function is also called with default city Delhi when the page is loaded.
 Additionally, it also listens for a click event on the element with "Submit" id, when the element is clicked, it calls the getWeather(city.value) function with
  the city.value entered in the input field.
 It uses fetch api to make the request, and it logs any error that might occur while fetching data.
-![weather_1](https://github.com/vkohli123/Weather-App/assets/110954074/8a5d6ccd-9297-41ca-bd96-cc89680ec4bb)
-![weather_2](https://github.com/vkohli123/Weather-App/assets/110954074/f0d4a8ce-1eb7-4060-98c6-1ea1a615d3b6)
-
 
 untitled:-
 This is a JavaScript code snippet that updates the innerHTML of several elements with specific ids
  (temp, feels_like, humidity, min_temp, max_temp, wind_speed, wind_degrees, sunrise, sunset) with the corresponding values from a response object. 
 The response object is likely coming from an API call that fetches weather data. It's updating the values of these elements with the data coming 
 from the API response.
+
+![weather_1](https://github.com/vkohli123/Weather-App/assets/110954074/8a5d6ccd-9297-41ca-bd96-cc89680ec4bb)
+
+
+![weather_2](https://github.com/vkohli123/Weather-App/assets/110954074/f0d4a8ce-1eb7-4060-98c6-1ea1a615d3b6)
+
+
